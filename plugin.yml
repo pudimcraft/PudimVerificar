@@ -1,7 +1,7 @@
-name: TokenValor
+name: PudimVerificar
 main: com.pudimcraft.verificar.Verificar
 version: 1.5
 description: "verificar por blty"
 commands:
   verificar:
-  
+  cancelar:

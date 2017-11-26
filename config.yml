@@ -1,0 +1,51 @@
+#Config de valores
+
+#Permissao de mods
+PermMod: PudimVerificar.mod
+#Permissao de admins
+PermAdmin: PudimVerificar.admin
+#Tempo maximo para verificacao
+TempoMax: 90
+#Tempo minimo para verificacao
+TempoMin: 10
+#Som para quando da algum erro no comando
+SomErro: ENTITY_VILLAGER_HURT
+#Som para quando o comando nao da erro
+SomSucesso: BLOCK_NOTE_PLING
+#O plugin deve gerar um arquivo guardando todas as verificacoes junto a data e horario?
+LogToFile: true
+#Nome do arquivo de log
+ArquivoLog: "logVerificar.txt"
+#O plugin deve mandar mensagem a todos com permissao de verificar avisando quem esta verificando quem no momento?
+BroadcastToMods: true
+#Ativar titulos durante a verificacao?
+Titulos: true
+
+#ABAIXO TRADUCAO DO PLUGIN
+#Prefixo para todas as mensagens
+Prefixo: "§5§lVerificar §7 - "
+#Mensagem que aparece quando tenta executar pelo console o comando
+Console: "§cVoce deve ser um jogador para executar esse comando!"
+#Erro para quando ja há algum mod verificando aquele jogador!
+ModJaVerificando: "§f%mod% §7 ja esta verificando o suspeito §f%player%§7."
+#Aparece para erros de sintaxe
+Usage: "§7/verificar [jogador] [segundos]"
+#Quando voce tenta verificar a si mesmo.
+VerificarVc: "§7Voce nao pode verificar a si mesmo."
+#Quando voce tanta verificar no meio de outra verificacao
+JaVerificando: "§7Voce ja esta verificando um jogador, tente novamente em §e%tempo% §7segundos."
+#Quando voce tenta verificar por mais de 90 segundos.
+TempoMaximo: "§7O tempo maximo para verificacao é de §e90 §7segundos."
+#Jogador nao foi encontrado.
+JogadorNaoEncontrado: "§7Jogador nao encontrado, verifique se o nome esta correto."
+#Quando tenta verificar por menos de 10 segundos.
+TempoMinimo: "§7O tempo minimo para verificacao e de §e10 §7segundos."
+#Mensagem que aparece para todos mods caso voce tenha ativado ela acima
+BroadCast: "§f%mod% §7esta verificando§f %suspeito%§7 por %tempo% segundos."
+#Quando jogador nao tem permissao.
+NoPerm: "§cVoce nao pode fazer isso!"
+#Moderador tentando verificar moderador.
+modVmod: "§7Voce nao pode verificar outro §5moderador§7."
+#Titulos
+Titulo: "§fVerificando §9%player%"
+SubTitulo: "§7Nao deslogue durante o verificar!"
