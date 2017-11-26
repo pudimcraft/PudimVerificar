@@ -46,6 +46,6 @@ BroadCast: "§f%mod% §7esta verificando§f %suspeito%§7 por %tempo% segundos."
 NoPerm: "§cVoce nao pode fazer isso!"
 #Moderador tentando verificar moderador.
 modVmod: "§7Voce nao pode verificar outro §5moderador§7."
-#Titulos
+#Titulos 
 Titulo: "§fVerificando §9%player%"
 SubTitulo: "§7Nao deslogue durante o verificar!"

@@ -83,7 +83,7 @@ public class Verificar extends JavaPlugin {
             e.printStackTrace();
  
         }
- 
+  
     }
 	public void verificar(Player p, Player alvo, int tempo) {
 		Essentials ess = (Essentials) Bukkit.getPluginManager().getPlugin("Essentials");
